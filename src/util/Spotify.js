@@ -8,7 +8,7 @@ const Spotify = {
         if(accessToken) {
             return accessToken;
         } 
-        // check for access token match and expiary time.
+        // check for access token match and expiry time.
 
         const accessTokenMatch = window.location.href.match(/access_token=([^&]*)/);
         const expiresInMatch = window.location.href.match(/expires_in=([^&]*)/);
